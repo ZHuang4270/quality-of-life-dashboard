@@ -35,7 +35,10 @@ module.exports = {
     }
   },
   plugins: {
-
+    closurecompiler: {
+      compilationLevel: 'SIMPLE',
+      createSourceMap: false,
+    },
     babel: {
       presets: [
         [
